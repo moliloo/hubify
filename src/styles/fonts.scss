@@ -1,0 +1,22 @@
+// Exo 2
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Poppins
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+
+@mixin font-style($font-family, $font-size, $font-weight: normal, $line-height: normal, $font-style: normal, $color: black) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  font-style: $font-style;
+  color: $color;
+}
+
+.font-1-xxl {
+  @include font-style('Exo 2', 64px, 600, 72px, normal, var(--dark-brow));
+}
+
+.font-1-m {
+  @include font-style('Poppins', 24px, 500, 36px, normal, var(--dark-brow));
+}

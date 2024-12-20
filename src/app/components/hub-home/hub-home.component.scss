@@ -1,0 +1,17 @@
+@import 'styles.scss';
+
+.home {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: var(--light-brown);
+}
+
+.card {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: var(--bege);
+  box-shadow: 15px 10px 30px -5px var(--shadow-brown);
+}

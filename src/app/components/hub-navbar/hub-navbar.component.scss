@@ -1,0 +1,12 @@
+@import 'styles.scss';
+
+.hub-navbar {
+  display: flex;
+  position: sticky;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px;
+  background-color: var(--light-brown);
+  box-shadow: 0px 10px 30px -5px var(--shadow-brown);
+}
